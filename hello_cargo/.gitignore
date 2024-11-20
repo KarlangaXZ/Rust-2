@@ -1,0 +1,23 @@
+# Carpeta de compilación y binarios generados
+/target/
+
+# Archivos de compilación específicos del editor
+**/*.rs.bk
+
+# Archivos de salida de pruebas
+**/*.log
+
+# Dependencias generadas automáticamente por Cargo
+/Cargo.lock
+
+# Archivos y configuraciones específicas de herramientas
+.idea/
+.vscode/
+*.swp
+*.swo
+*.DS_Store
+
+# Configuraciones del sistema operativo
+Thumbs.db
+.AppleDouble
+._* 
